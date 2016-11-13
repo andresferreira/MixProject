@@ -1,4 +1,4 @@
-package com.java.mix.project.module3;
+package com.java.mix.project.hbase;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

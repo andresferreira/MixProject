@@ -22,12 +22,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="hbase" />
         <module name="module1" />
         <module name="module2" />
         <module name="module3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="hbase" target="1.5" />
       <module name="mixproject" target="1.5" />
       <module name="module1" target="1.5" />
       <module name="module2" target="1.5" />
