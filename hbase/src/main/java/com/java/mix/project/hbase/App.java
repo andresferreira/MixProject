@@ -2,8 +2,6 @@ package com.java.mix.project.hbase;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.HBaseConfiguration;
-import org.apache.hadoop.hbase.HColumnDescriptor;
-import org.apache.hadoop.hbase.HTableDescriptor;
 import org.apache.hadoop.hbase.client.Connection;
 import org.apache.hadoop.hbase.client.ConnectionFactory;
 import org.apache.hadoop.hbase.client.HBaseAdmin;
@@ -22,10 +20,11 @@ public class App
             Configuration conf = HBaseConfiguration.create();
             Connection connection = ConnectionFactory.createConnection(conf);
             HBaseAdmin admin = (HBaseAdmin)connection.getAdmin();
-            System.out.println("Hi");
             connection.close();
         } catch (IOException e) {
             e.printStackTrace();
+        } finally {
+            System.out.println("Bye");
         }
     }
 }
