@@ -7,6 +7,7 @@ public class MountainBike extends Bicycle {
 
     // the MountainBike subclass adds one field
     public int seatHeight;
+    protected int p;
 
     // the MountainBike subclass has one constructor
     public MountainBike(int startHeight,
