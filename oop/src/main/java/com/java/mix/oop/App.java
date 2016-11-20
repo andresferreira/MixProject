@@ -1,4 +1,4 @@
-package com.java.mix.project;
+package com.java.mix.oop;
 
 /**
  * Hello world!

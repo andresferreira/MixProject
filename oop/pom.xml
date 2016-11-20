@@ -7,10 +7,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>module1-project</artifactId>
+    <artifactId>oop-project</artifactId>
     <packaging>jar</packaging>
 
-    <name>module1-project</name>
+    <name>oop-project</name>
     <url>http://maven.apache.org</url>
 
     <properties>

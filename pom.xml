@@ -24,7 +24,7 @@
   </dependencies>
 
   <modules>
-    <module>module1</module>
+    <module>oop</module>
     <module>module2</module>
     <module>hbase</module>
   </modules>
