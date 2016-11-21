@@ -23,10 +23,10 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="hbase" />
-        <module name="module1" />
         <module name="module2" />
         <module name="module3" />
         <module name="oop" />
+        <module name="oop-project" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -37,6 +37,7 @@
       <module name="module2-project" target="1.5" />
       <module name="module3" target="1.5" />
       <module name="oop" target="1.5" />
+      <module name="oop-project" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -5,9 +5,10 @@ package com.java.mix.oop;
  */
 public class MountainBike extends Bicycle {
 
+    // A Java class can only extend one parent class. Multiple inheritance is not allowed.
+
     // the MountainBike subclass adds one field
     public int seatHeight;
-    protected int p;
 
     // the MountainBike subclass has one constructor
     public MountainBike(int startHeight,
@@ -21,5 +22,16 @@ public class MountainBike extends Bicycle {
     // the MountainBike subclass adds one method
     public void setHeight(int newValue) {
         seatHeight = newValue;
+    }
+
+    @Override
+    public String toString() {
+        return "MountainBike{}";
+    }
+
+
+    public void printDescription() {
+        super.printDescription();
+        System.out.println("The " + "MountainBike has a suspension.");
     }
 }

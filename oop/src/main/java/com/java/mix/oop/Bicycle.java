@@ -10,7 +10,7 @@ public class Bicycle {
     public int gear;
     public int speed;
     private int x;
-    protected int z;
+    protected int protectedVariable;
 
     // the Bicycle class has one constructor
     public Bicycle(int startCadence, int startSpeed, int startGear) {
@@ -34,5 +34,16 @@ public class Bicycle {
 
     public void speedUp(int increment) {
         speed += increment;
+    }
+
+    @Override
+    public String toString() {
+        return "Bicycle{}";
+    }
+
+    public void printDescription(){
+        System.out.println("\nBike is " + "in gear " + this.gear
+                + " with a cadence of " + this.cadence +
+                " and travelling at a speed of " + this.speed + ". ");
     }
 }
