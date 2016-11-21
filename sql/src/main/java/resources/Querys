@@ -1,0 +1,40 @@
+CREATE TABLE groceries (
+    id 			INT PRIMARY KEY,
+    name 		TEXT,
+    quantity 	INT,
+    aisle       INT
+);
+
+INSERT INTO groceries VALUES(1,"Bananas",4,7);
+INSERT INTO groceries VALUES(2,"Chocolate bars",1,2);
+INSERT INTO groceries VALUES(3,"Peanut Butter",1,2);
+INSERT INTO groceries VALUES(4,"Eggs",1,12);
+INSERT INTO groceries VALUES(5,"Cat food",6,1);
+
+SELECT *
+FROM groceries;
+
+SELECT *
+FROM groceries
+ORDER BY aisle;
+
+SELECT *
+FROM groceries
+WHERE aisle > 5
+ORDER BY aisle;
+
+/*
+    Aggregate function:
+        useful for getting the maximum, minimum, sum
+        and average of values in the DB
+*/
+
+SELECT "Total", SUM(quantity)
+FROM groceries;
+
+SELECT name, MAX(quantity)
+FROM groceries;
+
+SELECT aisle, SUM(quantity)
+FROM groceries
+GROUP BY aisle;

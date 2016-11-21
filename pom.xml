@@ -27,6 +27,7 @@
     <module>oop</module>
     <module>module2</module>
     <module>hbase</module>
+      <module>sql</module>
   </modules>
 
 </project>
