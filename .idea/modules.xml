@@ -7,7 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/oop/module1.iml" filepath="$PROJECT_DIR$/oop/module1.iml" />
       <module fileurl="file://$PROJECT_DIR$/module2/module2.iml" filepath="$PROJECT_DIR$/module2/module2.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop/oop-project.iml" filepath="$PROJECT_DIR$/oop/oop-project.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sql/sql-project.iml" filepath="$PROJECT_DIR$/sql/sql-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sql/sql.iml" filepath="$PROJECT_DIR$/sql/sql.iml" />
     </modules>
   </component>
 </project>
